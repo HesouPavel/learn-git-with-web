@@ -1,2 +1,2 @@
 # learn-git-with-web
-create a website with css in VSCode, push to this repo
+clone this repo, create a website with css in VSCode, push back to github
