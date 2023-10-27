@@ -1,0 +1,23 @@
+body{
+    top: 0;
+    bottom: 0;
+    background-color: #223;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color:#00ffff;
+}
+.p{
+    width:50%;
+    margin:auto;
+    color: #008888;
+    text-align: center;
+}
+.end{
+    text-align: right;
+    color:#88a;
+    font-weight: 100;
+    bottom:0;
+}
