@@ -2,6 +2,7 @@ body{
     margin: 0;
     height: 100vh;
     background-color: #223;
+    color: aliceblue;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -24,4 +25,11 @@ h1{
     font-weight: 100;
     bottom:0;
     padding-right: 5px;
+}
+input {
+    position: absolute;
+    width:fit-content;
+    height: fit-content;
+    margin: 5px;
+    right:0;
 }
