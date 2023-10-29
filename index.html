@@ -8,23 +8,9 @@
 </head>
 <body id="body">
     <h1>TEST_PAGE</h1>
-    <input type="button" id="light" value="light" onlick="modeChange()"></input>
-    <input type="button"  id="dark"  value="dark" onlick="modeChange()" style="display: none;"></input>
-    <script>
-        /*let dark = true;*/
-        function modeChange() {
-            /*if (dark == true){*/
-                document.getElementById("light").style.display="block";
-                document.getElementById("dark").style.display="none";
-                document.getElementById("text").style.color="black";
-                document.getElementById("end").style.color="black";
-                document.getElementById("body").style.backgroundColor="white";
-            /*} else {
-                
-            }*/
-            
-        }
-    </script>
+    <input type="button" id="light" value="light" onclick="modeChange(light)"></input>
+    <input type="button"  id="dark"  value="dark" onclick="modeChange(dark)" style="display: none;"></input>
+    <script src="js/mode.js"></script>
     <p id="text" class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur eligendi expedita voluptate, iusto laboriosam ullam, voluptas consequatur ratione praesentium iure natus esse dolorem cum perferendis ipsum quia molestiae illum dignissimos?</p>
     <p id="end" class="end">This is the first version of the web.</p>
 </body>
