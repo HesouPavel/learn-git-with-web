@@ -12,6 +12,16 @@ h1{
     font-size: 2rem;
     text-align: center;
     color:#00ffff;
+    width: fit-content;
+    padding: 1em;
+    margin:2em auto;
+}
+h1:hover span{
+    display:none;
+}
+h1:hover:before{
+    content:"####_####";
+    font-size: 0.9em;
 }
 .p{
     width:50%;
