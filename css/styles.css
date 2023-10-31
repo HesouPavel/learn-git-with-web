@@ -36,10 +36,17 @@ h1:hover:before{
     bottom:0;
     padding-right: 5px;
 }
-input {
+i {
     position: absolute;
     width:fit-content;
     height: fit-content;
-    margin: 5px;
+    margin: 3%;
     right:0;
+}
+i:hover{
+    cursor: pointer;
+}
+#dark{
+    color: black;
+    display: none;
 }
