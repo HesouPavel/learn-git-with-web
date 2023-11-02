@@ -1,4 +1,9 @@
-body{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*body{
     margin: 0;
     height: 100vh;
     background-color: #223;
@@ -49,4 +54,4 @@ i:hover{
 #dark{
     color: black;
     display: none;
-}
+}*/
